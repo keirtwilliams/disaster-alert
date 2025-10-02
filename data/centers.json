@@ -1,0 +1,14 @@
+[
+  {
+    "name": "QC Memorial Gym",
+    "address": "Elliptical Road, QC",
+    "capacity": 500,
+    "hotline": "911"
+  },
+  {
+    "name": "Brgy. Hall Tandang Sora",
+    "address": "Tandang Sora, QC",
+    "capacity": 150,
+    "hotline": "0917xxxxxxx"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "service": "Police", "contact": "117" },
+  { "service": "Fire Department", "contact": "911" },
+  { "service": "Red Cross", "contact": "143" },
+  { "service": "DSWD", "contact": "8888" }
+]

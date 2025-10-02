@@ -1,0 +1,16 @@
+[
+  {
+    "type": "Typhoon",
+    "date": "2025-10-04",
+    "location": "Luzon",
+    "severity": "High",
+    "description": "Signal #3, heavy rains, possible flooding"
+  },
+  {
+    "type": "Earthquake",
+    "date": "2025-10-03",
+    "location": "Mindanao",
+    "severity": "Moderate",
+    "description": "Magnitude 5.7, aftershocks possible"
+  }
+]
