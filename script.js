@@ -3,7 +3,7 @@
 fetch("data/alerts.json")
 .then(response => response.json())
 .then(alerts => {
-    const tbody = document.getElementById('alerts-table');
+    const tbody = document.querySelector('#alerts-table tbody');
     alerts.forEach(alert => {
         const row = document.createElement('tr');
         row.innerHTML = 
@@ -14,9 +14,9 @@ fetch("data/alerts.json")
                <td>${alert.description} </td>
                `;
                tbody.appendChild(row);
-
     });
 });
+
 
    //evacuation Center
 fetch("data/centers.json")
@@ -41,3 +41,17 @@ fetch("data/centers.json")
         list.appendChild(li);
       });
   });
+
+  //searchbar
+   document.querySelector('#search-bar').addEventListener("input", (event) => {
+    const typedValue = event.target.value.toLowerCase();
+        const rows = document.querySelectorAll("#alerts-table tbody tr");
+       rows.forEach(row => {
+         const rowText = row.innerText.toLowerCase();
+        if(rowText.includes(typedValue)){
+             row.style.display = "";
+        } else if(typedValue === ""){
+          row.style.display = "none";
+        }     
+      });
+   });

@@ -2,15 +2,141 @@
   {
     "type": "Typhoon",
     "date": "2025-10-04",
-    "location": "Luzon",
+    "location": "Quezon City",
     "severity": "High",
     "description": "Signal #3, heavy rains, possible flooding"
   },
   {
     "type": "Earthquake",
     "date": "2025-10-03",
-    "location": "Mindanao",
+    "location": "Davao City",
     "severity": "Moderate",
     "description": "Magnitude 5.7, aftershocks possible"
+  },
+  {
+    "type": "Earthquake",
+    "date": "2025-11-02",
+    "location": "Cebu City",
+    "severity": "Low",
+    "description": "Magnitude 3.1, no major damages"
+  },
+  {
+    "type": "Flood",
+    "date": "2025-09-28",
+    "location": "Marikina City",
+    "severity": "High",
+    "description": "River overflow, waist-deep flooding"
+  },
+  {
+    "type": "Landslide",
+    "date": "2025-09-15",
+    "location": "Baguio City",
+    "severity": "Moderate",
+    "description": "Roads blocked, evacuation ongoing"
+  },
+  {
+    "type": "Fire",
+    "date": "2025-08-22",
+    "location": "Makati City",
+    "severity": "High",
+    "description": "Warehouse fire, responders deployed"
+  },
+  {
+    "type": "Volcanic Eruption",
+    "date": "2025-07-30",
+    "location": "Legazpi City",
+    "severity": "High",
+    "description": "Mayon Volcano ashfall, alert level raised"
+  },
+  {
+    "type": "Typhoon",
+    "date": "2025-06-12",
+    "location": "Tacloban City",
+    "severity": "Severe",
+    "description": "Signal #4, strong winds, storm surge expected"
+  },
+  {
+    "type": "Earthquake",
+    "date": "2025-05-18",
+    "location": "General Santos City",
+    "severity": "Moderate",
+    "description": "Magnitude 6.0, light structural damage"
+  },
+  {
+    "type": "Flood",
+    "date": "2025-05-05",
+    "location": "Iloilo City",
+    "severity": "Low",
+    "description": "Localized flooding in low-lying areas"
+  },
+  {
+    "type": "Fire",
+    "date": "2025-04-21",
+    "location": "Caloocan City",
+    "severity": "High",
+    "description": "Residential area fire, multiple houses affected"
+  },
+  {
+    "type": "Landslide",
+    "date": "2025-04-09",
+    "location": "Tagaytay City",
+    "severity": "Low",
+    "description": "Minor landslide, no casualties"
+  },
+  {
+    "type": "Volcanic Eruption",
+    "date": "2025-03-27",
+    "location": "Talisay, Batangas",
+    "severity": "High",
+    "description": "Taal Volcano steam-driven eruption"
+  },
+  {
+    "type": "Typhoon",
+    "date": "2025-03-15",
+    "location": "Naga City",
+    "severity": "Moderate",
+    "description": "Signal #2, heavy rains, flooding expected"
+  },
+  {
+    "type": "Earthquake",
+    "date": "2025-02-20",
+    "location": "Cagayan de Oro",
+    "severity": "High",
+    "description": "Magnitude 7.2, significant damage reported"
+  },
+  {
+    "type": "Flood",
+    "date": "2025-02-01",
+    "location": "Pampanga",
+    "severity": "Moderate",
+    "description": "Widespread flooding, agricultural damage"
+  },
+  {
+    "type": "Fire",
+    "date": "2025-01-18",
+    "location": "Pasig City",
+    "severity": "Low",
+    "description": "Small fire contained quickly"
+  },
+  {
+    "type": "Typhoon",
+    "date": "2024-12-29",
+    "location": "Zamboanga City",
+    "severity": "Severe",
+    "description": "Signal #3, strong winds, coastal flooding"
+  },
+  {
+    "type": "Earthquake",
+    "date": "2024-12-10",
+    "location": "Butuan City",
+    "severity": "Moderate",
+    "description": "Magnitude 5.5, felt across the city"
+  },
+  {
+    "type": "Landslide",
+    "date": "2024-11-05",
+    "location": "Sagada",
+    "severity": "High",
+    "description": "Massive landslide, road closures, rescue ongoing"
   }
 ]
