@@ -9,7 +9,12 @@
 <body>
      <h1>Philippine Disaster Alert & Resources Finder</h1>
        <input type="text" id="search-bar" name="search-bar" placeholder="Search hazards…"/>
-     <section id="alerts">
+        <button id="submit" onclick="filterSeverity('Severe')">Severe</button> 
+        <button id="submit" onclick="filterSeverity('High')">High</button>
+        <button id="submit" onclick="filterSeverity('Moderate')">Moderate</button>
+        <button id="submit" onclick="filterSeverity('Low')">Low</button>
+        <button id="submit" onclick="filterSeverity('all')">All</button>
+       <section id="alerts">
         <h2>Disaster Alerts</h2>
         <table id="alerts-table">
             <thead>

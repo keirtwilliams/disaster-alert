@@ -17,7 +17,6 @@ fetch("data/alerts.json")
     });
 });
 
-
    //evacuation Center
 fetch("data/centers.json")
 .then(res => res.json())
@@ -50,8 +49,21 @@ fetch("data/centers.json")
          const rowText = row.innerText.toLowerCase();
         if(rowText.includes(typedValue)){
              row.style.display = "";
-        } else if(typedValue === ""){
+        } else {
           row.style.display = "none";
         }     
       });
    });
+
+//filter thru severity
+function filterSeverity(level){
+  const rows = document.querySelectorAll('#alerts-table tbody tr');
+  rows.forEach(row => {
+    const severity = row.cells[3].innerText.trim();
+    if(level === "all" || severity === level){
+      row.style.display = "";
+    } else {
+      row.style.display = "none";
+    }
+  });
+};
